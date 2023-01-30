@@ -9,10 +9,7 @@ int height = Convert.ToInt32(Console.ReadLine());
 
 Cube cube = new Cube(width, height, length);
 var triangle = new Triangle(length, height, 27);
-var rectangle = new Rectangle();
-
-rectangle.Length= length;
-rectangle.Height = height;
+var rectangle = new Rectangle(length, height);
 
 Console.WriteLine("Cube area is: " + cube.getArea());
 Console.WriteLine("Cube volume is: " + cube.getVolume());
