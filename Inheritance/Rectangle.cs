@@ -5,7 +5,7 @@ class Rectangle : Shape, IShape
     public Rectangle(int length, int height)
     {
         Length = length;
-        Height = Height;
+        Height = height;
     }
     public double getArea()
     {
